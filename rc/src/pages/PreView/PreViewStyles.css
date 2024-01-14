@@ -1,0 +1,38 @@
+.preview-container {
+    background: linear-gradient(rgba(5, 7, 12, 0),rgba(5, 7, 12, 0.813)), url(../../assets/images/racpreview2.webp) no-repeat center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+.pv-gcontainer{
+    padding: 5rem;
+}
+
+.pv-gcontainer h1{
+    font-family: var(--main-font);
+    color: var(--main-fcolor);
+    font-size: 2.6rem;
+    margin-bottom: 1.3rem;
+}
+
+.pv-gcontainer span{
+    display: block;
+}
+
+
+.pv-gcontainer button{
+    border: none;
+    width: 8.5rem;
+    height: 2.3rem;
+    border-radius: 2.18rem;
+    font-size: 1rem;
+    background: #2D2D2D;
+    color: #f6f6f6;
+    font-family: var(--main-font);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.preview-container button:hover{
+    background-color: #1e1e1e;
+}

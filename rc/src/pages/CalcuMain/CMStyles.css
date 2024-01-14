@@ -1,0 +1,66 @@
+.cm-background{
+    background-color: #F8F8F8;
+    position: relative;
+
+}
+
+.cm-container{
+height: 100vh;
+overflow-y: hidden;
+overflow: hidden;
+}
+
+.cm-background .raccoon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20rem; 
+    height: auto; 
+}
+
+.cm-background .darkmode {
+    position: absolute;
+    bottom: 15%;
+    right: 2.4%;
+    height: auto; 
+}
+
+.cm-background .logout {
+    position: absolute;
+    bottom: 4%;
+    right: 2.6%;
+    height: auto; 
+}
+
+
+.cm-container h2{
+    font-family: var(--main-font);
+    color: var(--main-fcolor);
+    font-size: 2.2rem;
+}
+
+.cm-container h2 span{
+   display: block;
+}
+
+.calcu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+
+  
+}
+
+.calculator{
+    border-radius: 1.2rem;
+    background: #D4CBCC;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.247);
+    width: 28rem;
+    height: 32rem;
+}
+
+.title{
+    padding: 2.5rem 3rem 2rem 3rem;
+
+}
