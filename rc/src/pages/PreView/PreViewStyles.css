@@ -10,7 +10,7 @@
 
 .pv-gcontainer h1{
     font-family: var(--main-font);
-    color: var(--main-fcolor);
+    color: #151515;
     font-size: 2.6rem;
     margin-bottom: 1.3rem;
 }
@@ -34,5 +34,5 @@
 }
 
 .preview-container button:hover{
-    background-color: #1e1e1e;
+    background-color: #171717;
 }

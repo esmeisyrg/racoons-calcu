@@ -16,13 +16,34 @@ overflow: hidden;
     left: 0;
     width: 20rem; 
     height: auto; 
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave para la propiedad transform */
 }
+
+.cm-background .raccoon:hover {
+  animation: shake 0.8s ease-in-out; /* Inicia la animación cuando el ratón pasa por encima */
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(-5px);
+  }
+  30%, 50%, 70% {
+    transform: translateX(5px);
+  }
+}
+
 
 .cm-background .darkmode {
     position: absolute;
-    bottom: 15%;
+    bottom: 12.5%;
     right: 2.4%;
     height: auto; 
+    cursor: pointer;
+    width: 4rem;
 }
 
 .cm-background .logout {
@@ -30,6 +51,8 @@ overflow: hidden;
     bottom: 4%;
     right: 2.6%;
     height: auto; 
+    cursor: pointer;
+    width: 3.8rem;
 }
 
 

@@ -1,0 +1,89 @@
+/* Large desktop screens*/
+@media only screen and (min-width: 1440px) {
+   
+}
+
+/* Desktop base*/
+@media only screen and (max-width: 1440px) {
+   
+}
+
+/* Tablet devices*/
+@media only screen and (max-width: 1024px) {
+    .calcu-container{
+        height: 72vh;
+        padding: 2rem;
+    }
+
+    .container{
+        max-width: 420px;
+    }
+
+    .display{
+        height: 125px;
+        font-size: 2.5rem;
+        color: #655b5b;
+
+    }
+
+    .buttons button {
+        padding: 2rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #6d6262;
+    }
+
+    .cm-background .darkmode {
+        width: 5rem;
+        bottom: 11%;
+        right: 10%;
+    }
+
+    .cm-background .logout {
+        width: 5rem;
+        right: 10.2%;
+
+    }
+ 
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .cm-background .raccoon {
+        width: 15rem;
+    }
+
+    .cm-background .darkmode {
+        width: 3rem;
+        bottom: 11%;
+        right: 9%;
+    }
+
+    .cm-background .logout {
+        width: 3rem;
+        right: 9.2%;
+
+    }
+}
+
+/* Mobile devices portrait*/
+@media only screen and (max-width: 480px) {
+    
+}
+
+/* Mobile base*/
+@media only screen and (max-width: 375px) {
+    .cm-background .raccoon {
+        width: 7.5rem;
+    }
+}
+
+/* Otra opción para dispositivos móviles base*/
+@media only screen and (max-width: 360px) {
+    .cm-background .raccoon {
+        width: 15rem;
+    }
+
+}
+
