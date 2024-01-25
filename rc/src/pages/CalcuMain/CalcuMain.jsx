@@ -2,6 +2,7 @@ import './CMStyles.css'
 import Raccoon from '../../assets/images/raccoon.svg'
 import Logout from '../../assets/images/LogoutRounded.svg'
 import Darkmode from '../../assets/images/MoonSymbol.svg'
+import Calculator from './Calculator'
 
 
 const CalcuMain = () => {
@@ -23,10 +24,11 @@ const CalcuMain = () => {
     
 
         <div className='calcu-container'>
-          <div className='calculator'>
-            
-          </div>
+            <Calculator/>
+        
         </div>
+
+        
 
       </div>
     </div>
